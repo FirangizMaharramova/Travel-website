@@ -1,0 +1,443 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    width: 100%;
+    background-color: whitesmoke;
+    position: sticky;
+
+}
+
+.logo {
+    padding: 0 40px;
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: rgb(72, 180, 83);
+
+
+
+}
+
+.navbar-links {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    color: black;
+}
+
+.navbar-links i {
+    display: none;
+    font-size: 2rem;
+}
+
+.navbar-links a {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.navbar-links a:hover,
+.navbar-links a:focus {
+    color: rgb(72, 180, 83)
+}
+
+.section {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section_left {
+    padding: 20px;
+    height: 36vh;
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+.section-p1 {
+    font-size: 2.3rem;
+    font-weight: 600;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.section-p2 {
+    font-size: 1.2rem;
+
+}
+
+.section_left h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.section span {
+    color: rgb(72, 180, 83);
+}
+
+.section_left h3 {
+    font-size: 1.2rem;
+}
+
+.section_left button {
+    width: 150px;
+    height: 40px;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    border: transparent;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(72, 180, 83);
+    box-shadow: 0 0 10px rgb(72, 180, 83);
+}
+
+.section_left button:hover {
+    background-color: rgb(100, 201, 110);
+}
+
+.img {
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+.choose-tour {
+    width: 100%;
+    margin-top: 120px;
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.choose-tour h1 {
+    font-size: 2.3rem;
+    font-weight: 500;
+}
+
+.choose-tour span {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 3.5rem;
+    color: rgb(100, 201, 110);
+}
+
+.choose-tour div {
+    width: 70%;
+    height: 20vh;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.icons i {
+    margin-top: 80px;
+    width: 140px;
+    height: 130px;
+    font-size: 3.5rem;
+    border: 5px solid rgb(100, 201, 110);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 45px;
+    box-shadow: 0 0 10px rgb(72, 180, 83);
+}
+
+.icons i:hover {
+    background-color: rgb(72, 180, 83);
+    box-shadow: 0 0 10px rgb(100, 201, 110);
+    color: white;
+    cursor: pointer;
+}
+
+.tours {
+    margin-top: 180px;
+    width: 100%;
+    display: flex;
+    align-items: center !important;
+    gap: 12px;
+
+}
+
+.snow-surf {
+    height: 41vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 3px solid whitesmoke;
+    box-shadow: 0 0 10px rgba(235, 232, 232, 0.918);
+}
+
+
+.snow-surf h1 {
+    font-size: 1.5rem;
+}
+
+.snow-surf h3 {
+    color: #615f5f;
+}
+
+.snow {
+    width: 290px;
+    transition: 1.5s;
+    cursor: pointer;
+
+}
+
+.snow:hover {
+    transform: scale(1.1);
+
+}
+
+.snow-icons {
+    background-color: rgb(72, 180, 83);
+    color: white;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+
+}
+
+.people {
+    margin-top: 180px;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(h1-parallax-img-2.jpg);
+}
+
+.people-head {
+
+    width: 580px;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.top{
+    font-size: 2.5rem;
+    color: white;
+}
+
+.reviews {
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    color: white;
+}
+
+.top-p {
+    font-size: 1.3rem;
+    color: white;
+}
+
+.people-comment {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.comment {
+    width: 470px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(186, 185, 185);
+    background-color: white;
+    border-radius: 10px;
+    gap: 15px;
+
+
+}
+
+.comment-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.comment-head p {
+    color: rgb(125, 123, 123);
+}
+
+.comment-head h1 {
+    font-size: 1.7rem;
+}
+
+.footer {
+    color: white;
+    margin-top: 220px;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(39, 38, 38);
+}
+
+.footer-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+}
+
+.footer-1 h1 {
+    color: rgb(100, 201, 110);
+    cursor: pointer;
+}
+
+.footer-1 i {
+    cursor: pointer;
+}
+
+.input {
+    width: 250px;
+    height: 60px;
+
+
+    border: transparent;
+}
+
+.input-button {
+    background-color: rgb(72, 180, 83);
+    color: white;
+    width: 250px;
+    height: 60px;
+    cursor: pointer;
+    border: transparent;
+    font-size: 1.4rem;
+    box-shadow: 0 0 5px rgb(100, 201, 110);
+}
+
+.input-button:hover {
+    background-color: rgb(100, 201, 110);
+    box-shadow: 0 0 5px rgb(72, 180, 83);
+}
+
+@media screen and (max-width: 1268px) {
+
+    .navbar-links i {
+        display: flex;
+        cursor: pointer;
+    }
+
+    .navbar-links i:hover {
+        color: rgb(152, 148, 148);
+    }
+
+    .navbar-links a {
+        display: none;
+    }
+
+    .section button {
+        margin-top: 10px;
+    }
+
+    .people {
+        background-image: none;
+    }
+
+    .people-comment {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
+    .tours {
+        flex-direction: column;
+    }
+
+    .comment-img {
+        width: 100px;
+
+    }
+
+    .snow-surf {
+        height: 25vh;
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .top {
+        color: black;
+    }
+
+    .reviews {
+        color: rgb(100, 201, 110);
+    }
+
+    .top-p {
+        color: black;
+    }
+
+    .comment {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .choose-tour h1 {
+        margin-top: 100px;
+
+    }
+
+    .section {
+        flex-direction: column;
+    }
+
+    img {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 798px) {
+    .choose-tour h1 {
+        margin-top: 30px;
+
+    }
+
+    .footer {
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-1 {
+        margin-top: 20px;
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
